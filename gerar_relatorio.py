@@ -14,22 +14,24 @@ from sklearn.linear_model import LinearRegression
 
 # ============================================================================
 # --- CONFIGURAÇÃO DO CLIENTE ---
-# ID e Estações do cliente "Clayton Sheiki Tessaro"
+# ID e Estações do cliente "Marcelo Borges Basso"
 # ============================================================================
 CLIENTE_ID = 92088 # ID DO CLIENTE (GROWER_ID)
-CLIENTE_NOME = "Clayton Sheiki Tessaro" # NOME DO CLIENTE
-ESTACOES_DO_CLIENTE = [
-    {'name': 'Santa Ernestina T05', 'id_estacao': '80977', 'latitude': -12.4756, 'longitude': -55.6867},
-    {'name': 'Santa Ernestina T07', 'id_estacao': '80985', 'latitude': -12.4168, 'longitude': -55.7401},
-    {'name': 'Santa Ernestina T04', 'id_estacao': '80986', 'latitude': -12.4778, 'longitude': -55.7003},
-    {'name': 'Santa Ernestina T12', 'id_estacao': '80984', 'latitude': -12.4005, 'longitude': -55.7182},
-    {'name': 'Santa Ernestina', 'id_estacao': '39266', 'latitude': -12.4048, 'longitude': -55.740738},
-    {'name': 'Santa Ernestina T03', 'id_estacao': '37191', 'latitude': -12.496, 'longitude': -55.6931},
-    {'name': 'Santa Ernestina T13', 'id_estacao': '59504', 'latitude': -12.3868, 'longitude': -55.7189},
-    {'name': 'Santa Ernestina T11', 'id_estacao': '65610', 'latitude': -12.4196, 'longitude': -55.7304},
+CLIENTE_NOME = "Marcelo Borges Basso" # NOME DO CLIENTE
+ESTACOES_DO_CLIENTE =   {'name': 'Pla 6 / P.A Pista', 'id_estacao': '59061', 'latitude': -17.4949, 'longitude': -54.3052},
+    {'name': 'Pla 7 / P.A Reservatório', 'id_estacao': '59064', 'latitude': -17.43673, 'longitude': -54.27825},
+    {'name': 'Pla 5 / Meio Portela', 'id_estacao': '59063', 'latitude': -17.399, 'longitude': -54.354},
+    {'name': 'Pla 3 / VV Deserto', 'id_estacao': '59062', 'latitude': -17.471, 'longitude': -54.432},
+    {'name': 'Pla 1 / 106/107', 'id_estacao': '59065', 'latitude': -17.406, 'longitude': -54.31},
+    {'name': 'Pla 8 / Beira-Rio', 'id_estacao': '59066', 'latitude': -17.456, 'longitude': -54.5382},
+    {'name': 'Pla 9 / SN Cascalheira', 'id_estacao': '59179', 'latitude': -17.459, 'longitude': -54.5382},
+    {'name': 'Pla 2 / Chapéu', 'id_estacao': '59368', 'latitude': -17.4378, 'longitude': -54.4099},
+    {'name': 'Pla 4 / Paraiso Sede', 'id_estacao': '59509', 'latitude': -17.3782, 'longitude': -54.4889},
+    {'name': 'Pla 11 / A.C Meio', 'id_estacao': '80340', 'latitude': -17.5339, 'longitude': -54.3444},
+    {'name': 'Pla 10 / Planalto Sede', 'id_estacao': '80339', 'latitude': -17.3922, 'longitude': -54.42},
 ]
 # Define quantos anos de dados históricos buscar
-ANOS_DE_HISTORICO = 2
+ANOS_DE_HISTORICO = 1
 # ============================================================================
 
 
@@ -1055,6 +1057,7 @@ if __name__ == "__main__":
         # Faz o script falhar para que o GitHub Actions reporte o erro
 
         exit(1)
+
 
 
 
