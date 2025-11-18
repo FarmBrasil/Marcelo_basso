@@ -24,7 +24,7 @@ def get_authenticated_session() -> requests.Session | None:
     # --- 1. Lê as credenciais do ambiente ---
     # (Elas vieram ou do .env local ou dos GitHub Secrets)
     USUARIO = os.environ.get("FARM_USER") 
-    SENHA = os.environ.get("FARM_PASS")a
+    SENHA = os.environ.get("FARM_PASS")
     
     if not USUARIO or not SENHA:
         print("❌ ERRO DE AUTENTICAÇÃO: Credenciais não encontradas.")
