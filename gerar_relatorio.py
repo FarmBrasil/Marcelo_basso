@@ -31,16 +31,30 @@ CLIENTE_ID = 2266958 # ID DO CLIENTE (GROWER_ID)
 CLIENTE_NOME = "Marcelo Borges Basso" # NOME DO CLIENTE
 ESTACOES_DO_CLIENTE = [
     {'name': 'Pla 6 / P.A Pista', 'id_estacao': '59061', 'latitude': -17.4949, 'longitude': -54.3052},
-    {'name': 'Pla 7 / P.A Reservatór', 'id_estacao': '59064', 'latitude': -17.43673, 'longitude': -54.27825},
+    {'name': 'Pla 7 / P.A  Reservatório', 'id_estacao': '59064', 'latitude': -17.436733, 'longitude': -54.278259},
     {'name': 'Pla 5 / Meio Portela', 'id_estacao': '59063', 'latitude': -17.399, 'longitude': -54.354},
     {'name': 'Pla 3 / VV Deserto', 'id_estacao': '59062', 'latitude': -17.471, 'longitude': -54.432},
     {'name': 'Pla 1 / 106/107', 'id_estacao': '59065', 'latitude': -17.406, 'longitude': -54.43},
-    {'name': 'Pla 8 / Beira-Rio', 'id_estacao': '59066', 'latitude': -17.456, 'longitude': -54.5382},
-    {'name': 'Pla 9 / SN Cascalheira', 'id_estacao': '59179', 'latitude': -17.439, 'longitude': -54.62},
+    {'name': 'Pla 9 / SN  Cascalheira', 'id_estacao': '59179', 'latitude': -17.439, 'longitude': -54.62},
     {'name': 'Pla 2 / Chapéu', 'id_estacao': '59368', 'latitude': -17.4378, 'longitude': -54.4099},
-    {'name': 'Pla 4 / Paraiso Sede', 'id_estacao': '59509', 'latitude': -17.3782, 'longitude': -54.4889},
+    {'name': 'Pla 4 / Paraiso  Sede', 'id_estacao': '59509', 'latitude': -17.3782, 'longitude': -54.4889},
     {'name': 'Pla 11/ A.C Meio', 'id_estacao': '80340', 'latitude': -17.5339, 'longitude': -54.3444},
-    {'name': 'Pla 10 / Planalto Sede', 'id_estacao': '80339', 'latitude': -17.3922, 'longitude': -54.42}
+    {'name': 'Pla 12 Fundo Paraíso', 'id_estacao': '81128', 'latitude': -17.3394, 'longitude': -54.5225},
+    {'name': 'Pla14 / Furna', 'id_estacao': '81160', 'latitude': -17.4039, 'longitude': -54.4887},
+    {'name': 'Pla 15 / Açude Paraíso', 'id_estacao': '81161', 'latitude': -17.3695, 'longitude': -54.5238},
+    {'name': 'Pla 21 / Sede Portela', 'id_estacao': '81163', 'latitude': -17.3761, 'longitude': -54.3691},
+    {'name': 'Pla 16/ Cuz 909/910/911', 'id_estacao': '81164', 'latitude': -17.4113, 'longitude': -54.4012},
+    {'name': 'Pla 17/ Mata Burro Pista', 'id_estacao': '81165', 'latitude': -17.4441, 'longitude': -54.4369},
+    {'name': 'Pla 22/ Entrada Beira Rio', 'id_estacao': '81169', 'latitude': -17.4381, 'longitude': -54.5289},
+    {'name': 'Pla 18/ Divisa VV c/ Cachoeira', 'id_estacao': '81168', 'latitude': -17.4735, 'longitude': -54.4035},
+    {'name': 'Pla 20/ Sozinho 410', 'id_estacao': '81167', 'latitude': -17.3357, 'longitude': -54.5545},
+    {'name': 'Pla 26/ SN TL 610', 'id_estacao': '81166', 'latitude': -17.427, 'longitude': -54.58},
+    {'name': 'PLA 19 / Lavoura Primavera', 'id_estacao': '81194', 'latitude': -17.3532, 'longitude': -54.2692},
+    {'name': 'PLA 23 / Meio Sta. Paula', 'id_estacao': '81171', 'latitude': -17.5669, 'longitude': -54.3518},
+    {'name': 'PLA 24 / 911 A C', 'id_estacao': '81173', 'latitude': -17.5392, 'longitude': -54.3704},
+    {'name': 'PLA 25 / A C 905-906', 'id_estacao': '81174', 'latitude': -17.5046, 'longitude': -54.3339},
+    {'name': 'PLA 8 / 2G LAVOURA', 'id_estacao': '81195', 'latitude': -17.6477, 'longitude': -54.4318},
+    {'name': 'PLA 10 / CASINHA 2G', 'id_estacao': '81196', 'latitude': -17.6202, 'longitude': -54.4187}
 ]
 ANOS_DE_HISTORICO = 1
 # ============================================================================
@@ -1063,3 +1077,4 @@ if __name__ == "__main__":
         traceback.print_exc()
         # Faz o script falhar para que o GitHub Actions reporte o erro
         exit(1)
+
